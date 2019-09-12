@@ -44,6 +44,10 @@ public class GameState extends State {
     public void render(Graphics g) {
 
         handler.getWorld().render(g);
+        
+        g.setColor(Color.black);
+        g.setFont(new Font("Bauhaus 93", Font.ROMAN_BASELINE, 50));
+        g.drawString("Score: " + Player.score, 50, 80);
 
     }
 
