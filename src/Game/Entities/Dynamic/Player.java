@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.Random;
 
-/**
+/***
  * Created by AlexVR on 7/2/2018.
  */
 public class Player {
